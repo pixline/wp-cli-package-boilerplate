@@ -1,0 +1,34 @@
+{
+    "name": "pixline/wp-cli-boilerplate",
+    "type": "command",
+    "description": "wp-cli package template",
+    "keywords": ["wp-cli","package","template"],
+    "homepage": "https://github.com/pixline/wp-cli-boilerplate",
+    "license": "MIT",
+    "require": {
+        "wp-cli/wp-cli": "dev-master"
+    },
+    "suggest": {
+        "pixline/wp-cli-php-devtools": "dev-master",
+        "pixline/wp-cli-proxy": "dev-master",
+        "pixline/wp-cli-theme-test-command": "dev-master",
+        "wp-cli/server-command": "dev-master",
+        "x-team/wp-cli-ssh": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paolo Tresso",
+            "email": "plugins@swergroup.com",
+            "homepage": "http://about.me/pixline"
+        }
+    ],
+    "minimum-stability": "dev",
+    "support": {
+      "issues": "https://github.com/pixline/wp-cli-boilerplate/issues",
+      "source": "https://github.com/pixline/wp-cli-boilerplate"
+    },
+    "autoload": {
+      "files": [ "command.php" ]
+    }
+}
